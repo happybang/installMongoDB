@@ -10,9 +10,9 @@ echo ""
 function downloadMongo(){
 cd /root
 if ［ $（getconf WORD_BIT） = ‘32’ ］ && ［ $（getconf LONG_BIT） = ‘64’ ］ ; then
-wget https://fastdl.mongodb.org/linux/mongodb-linux-i686-3.2.3.tgz
+wget http://downloads.mongodb.org/linux/mongodb-linux-x86_64-rhel62-v3.6-latest.tgz
 else
-wget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.2.3.tgz
+wget http://downloads.mongodb.org/linux/mongodb-linux-x86_64-rhel62-v3.6-latest.tgz
 fi
 }
 
